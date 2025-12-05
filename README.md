@@ -16,7 +16,7 @@ Purchases are considered valid only when refund_time IS NULL (refunds excluded).
 
 Refund eligibility in Q6 is determined by comparing the time difference between purchase and refund timestamps using TIMESTAMPDIFF(HOUR) with a limit of 72 hours.
 
-Window functions such as ROW_NUMBER() are available (MySQL 8+ required).
+
 
 Notes
 
